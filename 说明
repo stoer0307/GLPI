@@ -5,3 +5,10 @@ docker-compose up -d
 服务器上必须要安装了docker和docker-compose，如果没有安装，可以使用另一个脚本初始化一下环境
 cd GLPI && chmod -R 755 .
 ./deploy_docker_and_composes.sh
+
+清楚告警命令
+/usr/local/bin/php /var/www/html/front/cron.php
+定时任务
+* * * * * /usr/local/bin/php /var/www/html/front/cron.php &>/dev/null
+
+安装核心插件fusioninventory
