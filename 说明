@@ -1,0 +1,7 @@
+安装GLPI
+git clone https://github.com/stoer0307/GLPI.git
+cd GLPI
+docker-compose up -d
+服务器上必须要安装了docker和docker-compose，如果没有安装，可以使用另一个脚本初始化一下环境
+cd GLPI && chmod -R 755 .
+./deploy_docker_and_composes.sh
