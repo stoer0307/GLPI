@@ -6,7 +6,7 @@ if [[ "$(whoami)" != "root" ]]; then
 	exit 1
 fi
 
-echo -e "\033[31m 这个是安装docker和docker_compace的脚本，欢迎关注我的个人公众号“devops的那些事”获得更多实用工具！Please continue to enter or ctrl+C to cancel \033[0m"
+echo -e "\033[31m 这个是安装docker和docker_compace的脚本,Please continue to enter or ctrl+C to cancel \033[0m"
 sleep 5
 
 #install docker
